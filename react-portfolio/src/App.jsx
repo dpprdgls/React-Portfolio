@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Intro from './components/intro';
 import Portfolio from './components/portfolio';
@@ -9,8 +10,6 @@ import Footer from './components/footer';
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     
       <div className='App'>
@@ -23,4 +22,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
