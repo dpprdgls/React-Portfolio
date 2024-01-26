@@ -1,5 +1,5 @@
 import React from 'react';
-function Contact() {
+function Footer() {
     return (
         <div></div>
     )
@@ -7,4 +7,4 @@ function Contact() {
     
 }
 
-export default Contact;
+export default Footer;
