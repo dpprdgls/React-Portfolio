@@ -12,7 +12,7 @@ import Footer from './components/footer';
 function App() {
   return (
     
-      <div className='App'>
+      <div className='bg-white text-stone-900 min-h-screen font-inter max-w-5xl w-11/12 mx-auto'>
         <Intro />
         <Portfolio />
         <Timeline />
