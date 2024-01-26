@@ -1,7 +1,7 @@
 import React from 'react';
 function PortfolioItem({ title, imgUrl, stack, link}) {
     return (
-        <div>
+        <div className='border-2 border-stone-900 rounded-md overflow-hidden'>
             <img 
             src='{imgUrl}' 
             alt='project image'
