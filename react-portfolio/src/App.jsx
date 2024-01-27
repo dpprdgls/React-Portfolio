@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useEffect, useState }  from 'react';
 import Intro from './components/intro';
 import Portfolio from './components/portfolio';
 import Timeline from './components/timeline';
