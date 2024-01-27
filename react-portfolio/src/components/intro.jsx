@@ -11,7 +11,7 @@ function Intro() {
                 <p className='text-sm max-w-xl mb-6 font-bold'>I specialize in building and designing unique digital experiences. Currently I am focused on building responsive full-stack web applications</p>
             </div>
             <div>
-                <button className='text-gray-600 border-2 rounded-md border-orange-600 px-6 py-3 my-4 '>View Work <HiArrowNarrowRight/></button>
+                <button className='text-gray-600 border-2 rounded-md border-orange-600 px-8 py-3 my-4 flex items-center hover:bg-orange-600 hover:text-white'>View Work <HiArrowNarrowRight className='ml-2'/></button>
             
             </div>
         </div>

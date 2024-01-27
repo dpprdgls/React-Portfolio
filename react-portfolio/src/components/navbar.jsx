@@ -36,13 +36,13 @@ const NavBar = () => {
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-78px] hover:ml-[-10px] duration-300'>
                     <a className='flex justify-between items-center'
-                     href='/'>
+                     href='https://www.linkedin.com/in/colin-douglas-068ba8262/'>
                         Linkedin <FaLinkedin size={30} />
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-67px] hover:ml-[-10px] duration-300'>
                     <a className='flex justify-between items-center'
-                     href='/'>
+                     href='https://github.com/dpprdgls'>
                         GitHub <FaGithub size={30} />
                     </a>
                 </li>
