@@ -3,7 +3,7 @@ import {HiArrowNarrowRight} from 'react-icons/hi';
 import { Link } from'react-router-dom';
 function Intro() {
     return (
-        <div className='flex items-center justify-center flex-col pt-20 pb-6'>
+        <div className='flex items-center  justify-center flex-col pt-10 pb-10 h-screen'>
             <div>
                 <p className='text-orange-600'>Hello, my name is</p>
                 <h1 className='text-4xl md:text-7xl mb-1 md:mb-3 font-bold text-gray-500'>Colin Douglas</h1>

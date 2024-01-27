@@ -4,8 +4,8 @@ import { Link } from'react-router-dom';
 function Contact() {
     return (
         <div>
-        <div className='flex flex-col mb-10 mx-auto'>
-            <div className='flex justify-center items-center'>
+        <div className='flex flex-col mb-10 mx-auto '>
+            <div className='flex justify-center items-center h-screen'>
                 <form 
                     action='https://getform.io/f/983727c2-319a-4857-b4a5-664bc04c4cec'
                     method='POST'
