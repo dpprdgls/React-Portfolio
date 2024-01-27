@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
-import {FaBars, FaTimes} from 'react-icons/fa';
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
+import {HiOutlineMail} from 'react-icons/hi';
+import {BsFillPersonLinesFill} from'react-icons/bs';
 import Logo from '/assets/circlelogo.png';
 
 const NavBar = () => {
@@ -30,7 +32,17 @@ const NavBar = () => {
         </ul>
 
         {/* social icons */}
-        <div></div>
+        <div className='flex fixed flex-col top-[35%] left-0'>
+            <ul>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-78px] hover:ml-[-10px] duration-300'>
+                    <a className='flex justify-between items-center'
+                     href='/'>
+                        Linkedin <FaLinkedin size={30} />
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
     </div>
     )
 }
