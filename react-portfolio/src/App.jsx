@@ -14,15 +14,14 @@ function App() {
     <div>
       <NavBar/>
       <div className='bg-white text-stone-900 min-h-screen font-inter max-w-5xl w-11/12 mx-auto'>
-        <Intro />
+        
         <Routes>
+          <Route path='/' element={<Intro />}/>
           <Route path='/portfolio' element={<Portfolio/>}/>
           <Route path='/timeline' element={<Timeline/>}/>
           <Route path='/contact' element={<Contact/>}/>
         </Routes>
-        {/* <Portfolio  />
-        <Timeline />
-        <Contact /> */}
+        
         <Footer />
       </div>
     </div>

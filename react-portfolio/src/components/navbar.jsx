@@ -3,6 +3,7 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from'react-icons/bs';
 import Logo from '/assets/circlelogo.png';
+import { Link } from'react-router-dom';
 
 const NavBar = () => {
     const [nav, setNav] = useState(false);
@@ -12,23 +13,40 @@ const NavBar = () => {
             <img src={Logo} alt='Logo' style={{ width: '50px'}}/>
 {/* //menu */}
         
-            <ul className='hidden md:flex'>
-                <li>Home</li>
-                <li>Portfolio</li>
-                <li>Skills</li>
-                <li>Contact</li>
-            </ul>
-        
+        <ul className='hidden md:flex'>
+            <li>
+                <Link to='/'>Home</Link>
+            </li>
+            <li>
+                <Link to='/portfolio'>Portfolio</Link>
+            </li>
+            <li>
+                <Link to='/timeline'>Timeline</Link>
+            </li>
+            <li>
+                <Link to='/contact'>Contact</Link>
+            </li>
+        </ul>
+                
  {/* // burger */}
         <div onClick={handleClick} className='md:hidden z-10'>
             {!nav? <FaBars /> : <FaTimes/>}
         </div>
 {/* // mobile */}
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-slate flex flex-col justify-center items-center'}>
-            <li className='py-6 text-4xl'>Home</li>
-            <li className='py-6 text-4xl'>Portfolio</li>
-            <li className='py-6 text-4xl'>Skills</li>
-            <li className='py-6 text-4xl'>Contact</li>
+            <li className='py-6 text-4xl'>
+                <Link to='/'>Home</Link>
+            </li>
+            <li className='py-6 text-4xl'>
+                <Link to='/portfolio'>Portfolio</Link>
+            </li>
+            <li className='py-6 text-4xl'>
+                <Link to='/timeline'>Timeline</Link>
+            </li>
+            
+            <li className='py-6 text-4xl'>
+                <Link to='/contact'>Contact</Link>
+            </li>
         </ul>
 
         {/* social icons */}

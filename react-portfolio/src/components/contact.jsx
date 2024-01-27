@@ -1,7 +1,9 @@
 import React from 'react';
 import Title from './title';
+import { Link } from'react-router-dom';
 function Contact() {
     return (
+        <div>
         <div className='flex flex-col mb-10 mx-auto'>
             <div className='flex justify-center items-center'>
                 <form 
@@ -40,6 +42,7 @@ function Contact() {
                         
                 </form>
             </div>
+        </div>
         </div>
     )
         

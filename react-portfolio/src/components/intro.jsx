@@ -1,6 +1,6 @@
 import React from 'react';
 import {HiArrowNarrowRight} from 'react-icons/hi';
-
+import { Link } from'react-router-dom';
 function Intro() {
     return (
         <div className='flex items-center justify-center flex-col pt-20 pb-6'>
@@ -11,8 +11,12 @@ function Intro() {
                 <p className='text-sm max-w-xl mb-6 font-bold'>I specialize in building and designing unique digital experiences. Currently I am focused on building responsive full-stack web applications</p>
             </div>
             <div>
-                <button className='text-gray-600 border-2 rounded-md border-orange-600 px-8 py-3 my-4 flex items-center hover:bg-orange-600 hover:text-white'>View Work <HiArrowNarrowRight className='ml-2'/></button>
-            
+                <Link to='/portfolio'>
+                    <button className='text-gray-600 border-2 rounded-md border-orange-600 px-8 py-3 my-4 flex items-center hover:bg-orange-600 hover:text-white'>
+                        <span>View Work</span>
+                        <HiArrowNarrowRight className='ml-2'/>
+                    </button>
+                </Link>
             </div>
         </div>
     )
