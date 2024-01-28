@@ -7,10 +7,11 @@ import Title from './title';
 function Timeline() {
     return (
         <div className='flex flex-col md:flex-row items-center justify-center h-screen'>
-            <div className='w-full md:-7/12'>
+            <div className='w-full md:w-7/12'>
                 <Title>Timeline </Title>
             {timeline.map(item => (
-                <TimelineItem key={item.id}
+                <TimelineItem 
+                key={item.id}
                 year={item.year} 
                 title={item.title}
                 duration={item.duration}
