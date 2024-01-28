@@ -54,29 +54,33 @@ const NavBar = () => {
 
       {/* // mobile */}
 
-      {/* //className={`md:hidden ${nav ? 'fixed top-0 left-0 w-full h-screen bg-slate flex flex-col justify-center items-center' : 'hidden'}`} */}
+      
       <ul
-        // className={`md:hidden ${nav ? 'fixed top-0 left-0 w-full h-screen bg-slate flex flex-col justify-center items-center z-10' : 'hidden'}`}
-        className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen z-1 flex flex-col justify-center items-center'}
+        className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-100 z-1 flex flex-col align-center justify-center items-center mx-auto'}
       >
-        <li className='py-6 text-4xl'>
-          <NavLink exact to='/' className='active-link'>
+        <li className='py-0 text-4xl h-auto'>
+          <NavLink exact to='/' className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
             Home
           </NavLink>
         </li>
-        <li className='py-6 text-4xl'>
-          <NavLink to='/portfolio' className='active-link'>
+        <li className='py-0 text-4xl h-auto'>
+          <NavLink to='/about' className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
+            About
+          </NavLink>
+        </li>
+        <li className='py-0 text-4xl h-auto'>
+          <NavLink to='/portfolio' className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
             Portfolio
           </NavLink>
         </li>
-        <li className='py-6 text-4xl'>
-          <NavLink to='/timeline' className='active-link'>
+        <li className='py-0 text-4xl h-auto'>
+          <NavLink to='/timeline' className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
             Timeline
           </NavLink>
         </li>
 
-        <li className='py-6 text-4xl'>
-          <NavLink to='/contact' className='active-link'>
+        <li className='py-0 text-4xl w-100'>
+          <NavLink to='/contact' className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
             Contact
           </NavLink>
         </li>

@@ -17,6 +17,13 @@
     
 }
 
+.mobile-nav-link{
+    color: white;
+    background-color: white;
+    opacity: 1;
+    width: 100%;
+}
+
 .active-link {
-    color: orange;
+    color: #dd6b20;
 }

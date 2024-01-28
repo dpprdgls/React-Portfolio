@@ -21,6 +21,7 @@ function Portfolio() {
             imgUrl={item.imgUrl}
             stack={item.stack}
             link={item.link}
+            github={item.github}
           />
         ))}
       </div>
