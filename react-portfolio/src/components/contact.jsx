@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Title from './title';
+
 import { Link } from 'react-router-dom';
 
 function Contact() {

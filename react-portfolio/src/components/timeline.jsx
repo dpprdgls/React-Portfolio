@@ -2,7 +2,7 @@ import React from 'react';
 import timeline from '../data/timeline';
 
 import TimelineItem from './timelineItem';
-import Title from './title';
+
 
 function Timeline() {
     return (
