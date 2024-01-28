@@ -75,7 +75,7 @@ function Contact() {
             onSubmit={handleSubmit}
             className='flex flex-col w-full md:w-7/12'
           >
-            <Title>Contact</Title>
+            <h1 className='text-4xl mt-8 mb-4'>Contact</h1>
             <input
               type='text'
               name='name'
