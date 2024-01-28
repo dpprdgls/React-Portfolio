@@ -28,7 +28,7 @@ function Contact() {
       return;
     }
 
-    // More advanced email validation
+    
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(formData.email)) {
       setError('Please enter a valid email address.');
@@ -105,7 +105,7 @@ function Contact() {
             {success && <p className='text-green-500'>Form submitted successfully!</p>}
             <button
               type='submit'
-              className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-orange-600 to-gray-500 drop-shadow-md'
+              className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-orange-600 drop-shadow-md'
             >
               Let's get in touch!
             </button>
