@@ -41,4 +41,5 @@ export default [
         stack: ['JavaScript', 'CSS', 'HTML', 'Express.js'],
         link: 'https://note-taker-app-cd-5f2cc183933b.herokuapp.com/'
     }
+    
 ]

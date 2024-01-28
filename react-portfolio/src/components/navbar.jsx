@@ -48,8 +48,11 @@ const NavBar = () => {
       </div>
 
       {/* // mobile */}
+
+      {/* //className={`md:hidden ${nav ? 'fixed top-0 left-0 w-full h-screen bg-slate flex flex-col justify-center items-center' : 'hidden'}`} */}
       <ul
-        className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-slate flex flex-col justify-center items-center'}
+        // className={`md:hidden ${nav ? 'fixed top-0 left-0 w-full h-screen bg-slate flex flex-col justify-center items-center z-10' : 'hidden'}`}
+        className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen z-1 flex flex-col justify-center items-center'}
       >
         <li className='py-6 text-4xl'>
           <NavLink exact to='/' className='active-link'>
