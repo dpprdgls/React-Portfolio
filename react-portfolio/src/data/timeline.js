@@ -17,7 +17,7 @@ export default [
         id: 3,
         year: '2018-2020',
         title: 'Engineering Technician',
-        duration: '2018-2020',
+        duration: '2 Years',
         details: 'During the Model 3 launch it was my reponsibility to work with the engineering team to develop and improve the automated shipping system to sustain lean manufacturing process.'
     }
 ]
