@@ -26,6 +26,11 @@ const NavBar = () => {
           </NavLink>
         </li>
         <li>
+        <NavLink to='/about' className={location.pathname === '/about' ? 'active-link' : ''}>
+            About
+          </NavLink>
+        </li>
+        <li>
           <NavLink to='/portfolio' className={location.pathname === '/portfolio' ? 'active-link' : ''}>
             Portfolio
           </NavLink>

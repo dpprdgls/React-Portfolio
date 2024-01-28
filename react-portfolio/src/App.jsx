@@ -1,6 +1,7 @@
 
 import React, { useEffect, useState }  from 'react';
 import Intro from './components/intro';
+import About from './components/about';
 import Portfolio from './components/portfolio';
 import Timeline from './components/timeline';
 import Contact from './components/contact';
@@ -17,6 +18,7 @@ function App() {
         
         <Routes>
           <Route path='/' element={<Intro />}/>
+          <Route path='/about' element={<About />}/>
           <Route path='/portfolio' element={<Portfolio/>}/>
           <Route path='/timeline' element={<Timeline/>}/>
           <Route path='/contact' element={<Contact/>}/>
