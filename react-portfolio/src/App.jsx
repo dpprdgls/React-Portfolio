@@ -4,6 +4,7 @@ import Intro from './components/intro';
 import About from './components/about';
 import Portfolio from './components/portfolio';
 import Timeline from './components/timeline';
+import Skills from './components/skills'
 import Contact from './components/contact';
 import Footer from './components/footer';
 import {Routes, Route} from 'react-router-dom';;
@@ -22,6 +23,7 @@ function App() {
           <Route path='/portfolio' element={<Portfolio/>}/>
           <Route path='/timeline' element={<Timeline/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          <Route path='/skills' element={<Skills/>}/>
         </Routes>
         
         <Footer />

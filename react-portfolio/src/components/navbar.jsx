@@ -41,6 +41,11 @@ const NavBar = () => {
           </NavLink>
         </li>
         <li>
+        <NavLink to='/skills' className={location.pathname === '/skills' ? 'active-link' : ''}>
+            Skills
+          </NavLink>
+        </li>
+        <li>
         <NavLink to='/contact' className={location.pathname === '/contact' ? 'active-link' : ''}>
             Contact
           </NavLink>
@@ -78,7 +83,11 @@ const NavBar = () => {
             Timeline
           </NavLink>
         </li>
-
+        <li className='py-0 text-4xl w-100'>
+          <NavLink to='/skills' className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
+            Skills
+          </NavLink>
+        </li>
         <li className='py-0 text-4xl w-100'>
           <NavLink to='/contact' className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
             Contact

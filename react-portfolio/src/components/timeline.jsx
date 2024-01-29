@@ -20,12 +20,7 @@ function Timeline() {
             />
         ))}
 
-{/* resume button */}
-        <button className="text-gray-600 border-2 rounded-md border-orange-600 px-8 py-3 my-4 flex items-center hover:bg-orange-600 hover:text-white'">
-          <a className="button" href="../assets/Resume/ResumeOfficial.pdf" download="ResumeOfficial.pdf">
-            Download Resume
-          </a>
-        </button>
+
 
 
             </div>
