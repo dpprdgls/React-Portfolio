@@ -26,7 +26,7 @@
     
     *Steps required to install project and how to get the development environment running:*
     
-    To make changes to the code base you can clone the repository via [Repository]('https://github.com/dpprdgls/React-Portfolio') and run `npm i` within the root directory and `npm start` to launch the site locally. You can visit the deployed application here [Live Deployment]('https://main--the-best-portfolio.netlify.app/').
+    To make changes to the code base you can clone the repository via [Repository](https://github.com/dpprdgls/React-Portfolio) and run `npm i` within the root directory and `npm start` to launch the site locally. You can visit the deployed application here [Live Deployment](https://main--the-best-portfolio.netlify.app/).
     
     ## Usage
     
