@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import Me from '/assets/outside.jpg';
+import Me from '/assets/outsideOpt.webp';
 
 function About() {
   return (

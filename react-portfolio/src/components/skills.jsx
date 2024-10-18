@@ -1,5 +1,5 @@
 import React from 'react';
-import Hills from '/assets/hills.jpg';
+import Hills from '/assets/hillsOpt.webp';
 function Skills(){
     return (
         <div className='flex items-center justify-center flex-col pt-10 pb-10 h-screen'>
