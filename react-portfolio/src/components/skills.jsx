@@ -2,7 +2,8 @@ import React from 'react';
 import Hills from '/assets/hillsOpt.webp';
 function Skills(){
     return (
-        <div className='flex items-center justify-center flex-col pt-10 pb-10 h-screen'>
+        <div className='flex flex-col min-h-screen'>
+        <div className='flex-grow flex items-center justify-center flex-col pt-10 pb-10'>
       <div className='flex flex-col md:flex-row items-center md:items-start'>
         <img src={Hills} alt='Me in nature' className='w-80 h-auto mb-6 md:mr-10 mt-20 md:mt-0' />
 
@@ -39,6 +40,7 @@ function Skills(){
         </button>
         </div>
       </div>
+    </div>
     </div>
     )
 }
