@@ -7,7 +7,7 @@ import TimelineItem from './timelineItem';
 function Timeline() {
     return (
         <div className='flex flex-col min-h-screen'>
-        <div className='flex-grow flex flex-col md:flex-row items-center justify-center h-screen pt-6 pb-10'>
+        <div className='flex-grow flex flex-col md:flex-row items-center justify-center pt-6 pb-10'>
             <div className='w-full md:w-7/12'>
               
                 <h1 className='text-4xl mt-8 mb-4'>Timeline</h1>
