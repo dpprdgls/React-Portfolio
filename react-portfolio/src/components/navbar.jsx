@@ -12,6 +12,7 @@ const NavBar = () => {
   const location = useLocation();
 
   const handleClick = () => setNav(!nav);
+  const closeMenu = () => setNav(false);
 
    
 
@@ -64,32 +65,32 @@ const NavBar = () => {
         className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-100 z-1 flex flex-col align-center justify-center items-center mx-auto'}
       >
         <li className='py-0 text-4xl h-auto'>
-          <NavLink exact to='/' className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
+          <NavLink exact to='/' onClick={closeMenu} className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
             Home
           </NavLink>
         </li>
         <li className='py-0 text-4xl h-auto'>
-          <NavLink to='/about' className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
+          <NavLink to='/about' onClick={closeMenu} className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
             About
           </NavLink>
         </li>
         <li className='py-0 text-4xl h-auto'>
-          <NavLink to='/portfolio' className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
+          <NavLink to='/portfolio' onClick={closeMenu} className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
             Portfolio
           </NavLink>
         </li>
         <li className='py-0 text-4xl h-auto'>
-          <NavLink to='/timeline' className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
+          <NavLink to='/timeline' onClick={closeMenu} className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
             Timeline
           </NavLink>
         </li>
         <li className='py-0 text-4xl w-100'>
-          <NavLink to='/skills' className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
+          <NavLink to='/skills' onClick={closeMenu} className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
             Skills
           </NavLink>
         </li>
         <li className='py-0 text-4xl w-100'>
-          <NavLink to='/contact' className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
+          <NavLink to='/contact' onClick={closeMenu} className={`active-link ${nav ? 'mobile-nav-link' : ''}`}>
             Contact
           </NavLink>
         </li>
