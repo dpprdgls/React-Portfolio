@@ -5,7 +5,8 @@ import Me from '/assets/outsideOpt.webp';
 
 function About() {
   return (
-    <div className='flex items-center justify-center flex-col pt-10 pb-10 h-screen'>
+    <div className='flex flex-col min-h-screen'>
+    <div className='flex-grow items-center justify-center flex-col pt-10 pb-10'>
       <div className='flex flex-col md:flex-row items-center md:items-start'>
         <img src={Me} alt='Nature' className='w-80 h-auto mb-6 md:mr-10 mt-20 md:mt-0' />
 
@@ -35,6 +36,7 @@ function About() {
           </p>
         </div>
       </div>
+    </div>
     </div>
   );
 }
